@@ -30,7 +30,7 @@ export default function Login() {
                 <Input placeholder="Password" type="password" />
                 <div className='mt-5 space-y-2.5'>
                     <Button colorScheme="blue" loading={isLoading} onClick={handleLogin}>Login</Button>
-                    <p className='opacity-50 hover:underline text-sm'>Don't have an account? Sign up here.</p>
+                    <p className='opacity-50 hover:underline text-sm'>Don&apos;t have an account? Sign up here.</p>
                 </div>
                 <div className='mt-5 space-y-2.5 flex flex-col'>
                     <Button colorScheme="green"><FaGoogle className="text-lg mr-2.5" />Login with Google</Button>
