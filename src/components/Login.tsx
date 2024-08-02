@@ -30,12 +30,12 @@ export default function Login() {
                 <Input placeholder="Password" type="password" />
                 <Checkbox label="Remember me" />
                 <div className='mt-5 space-y-2.5'>
-                    <Button colorScheme="blue" loading={isLoading} onClick={handleLogin}>Login</Button>
+                    <Button loading={isLoading} onClick={handleLogin}>Login</Button>
                     <p className='opacity-50 hover:underline text-sm'>Don&apos;t have an account? Sign up here.</p>
                 </div>
                 <div className='mt-5 space-y-2.5 flex flex-col'>
-                    <Button colorScheme="gray"><FaGoogle className="text-lg mr-2.5" />Login with Google</Button>
-                    <Button colorScheme="gray"><FaGithub className="text-lg mr-2.5" />Login with GitHub</Button>
+                    <Button colorScheme="gray" shape="square"><FaGoogle className="text-lg mr-2.5" />Login with Google</Button>
+                    <Button colorScheme="gray" shape="square"><FaGithub className="text-lg mr-2.5" />Login with GitHub</Button>
                 </div>
             </Card>
             <AlertDialog visible={alertVisible} onClose={handleCloseAlert} title="Login Successful" message="You have successfully logged in." />
