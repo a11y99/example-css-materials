@@ -20,7 +20,7 @@ export default function Dashboard() {
                 <Tab label="Tab 1">
                     <div className="flex space-x-2.5 items-center mb-5">
                         <Avatar name="オダギリジョー" bgColor='#2fa0ff' size="small" />
-                        <h1 className="font-bold">オダギリジョー's Team</h1>
+                        <h1 className="font-bold">オダギリジョー&apos;s Team</h1>
                     </div>
                     <Table columns={columns} data={data} />
                 </Tab>
