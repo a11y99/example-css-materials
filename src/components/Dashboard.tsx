@@ -1,4 +1,6 @@
-import { Tab, Table, Tabs } from 'css-materials';
+import { Tab, Table, Tabs, Avatar } from 'css-materials';
+import { FaExclamationTriangle } from 'react-icons/fa';
+import { FiUser } from 'react-icons/fi';
 
 export default function Dashboard() {
     const columns = [
@@ -16,6 +18,10 @@ export default function Dashboard() {
         <div>
             <Tabs>
                 <Tab label="Tab 1">
+                    <div className="flex space-x-2.5 items-center mb-5">
+                        <Avatar name="オダギリジョー" bgColor='#2fa0ff' size="small" />
+                        <h1 className="font-bold">オダギリジョー's Team</h1>
+                    </div>
                     <Table columns={columns} data={data} />
                 </Tab>
                 <Tab label="Tab 2" disabled>
