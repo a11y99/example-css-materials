@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "css-materials": "^1.1.2",
+    "css-materials": "^0.0.6",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
